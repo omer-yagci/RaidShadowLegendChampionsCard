@@ -15,9 +15,11 @@ const Card = ({
   cDmg,
   acc,
   resist,
+  hero,
 }) => {
   return (
     <div className={classes.card}>
+      <h1>{hero}</h1>
       <h1 className={classes.title}>{name}</h1>
       <h5>{`Faction: ${faction}`}</h5>
       <h3>{`Rarity: ${rarity}`}</h3>
