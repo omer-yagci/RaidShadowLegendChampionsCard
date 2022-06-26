@@ -1,0 +1,27 @@
+@import "./variables";
+
+.card-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0.5rem auto;
+
+  .card-input,
+  .btn-search {
+    padding: 10px 20px;
+    background-color: $Landscape-2-hex;
+    border: none;
+    font-size: 1.4rem;
+  }
+  .btn-search {
+    cursor: pointer;
+  }
+  .card-input:focus {
+    outline: none;
+  }
+  .card-input {
+    color: $Landscape-3-hex;
+    font-weight: bold;
+  }
+}
