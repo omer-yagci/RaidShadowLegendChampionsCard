@@ -34,8 +34,6 @@ const Main = () => {
               element.Name.toLowerCase().includes(hero.toLowerCase())
             ) {
               return element;
-            } else if (element.DEF === "undefined") {
-              return "zaa";
             }
           })
           .map((item, index) => {
@@ -52,6 +50,7 @@ const Main = () => {
               Affinity,
               Role,
             } = item;
+
             const cDmg = item["C. DMG"];
             const cRate = item["C. RATE"];
 
