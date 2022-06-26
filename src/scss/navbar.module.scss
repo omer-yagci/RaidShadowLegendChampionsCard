@@ -1,0 +1,23 @@
+@import "./variables";
+@import url("https://fonts.googleapis.com/css2?family=Eater&display=swap");
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $My-Favorite-Nights-2-hex;
+  a {
+    font-family: "Eater", cursive;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    // margin: 1rem;
+    padding: 1rem;
+    color: $My-Favorite-Nights-5-hex;
+    &:hover {
+      background-color: $Landscape-2-hex;
+      color: $Landscape-3-hex;
+      font-family: "Eater", cursive;
+      font-weight: 600;
+    }
+  }
+}
