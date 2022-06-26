@@ -33,7 +33,9 @@ const Main = () => {
             } else if (
               element.Name.toLowerCase().includes(hero.toLowerCase())
             ) {
-              return element;
+              return true;
+            } else {
+              return false;
             }
           })
           .map((item, index) => {
