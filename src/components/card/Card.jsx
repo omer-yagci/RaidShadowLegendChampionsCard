@@ -19,7 +19,7 @@ const Card = ({
   return (
     <div className={classes.card}>
       <h1 className={classes.title}>{name}</h1>
-      <h2>{`Faction: ${faction}`}</h2>
+      <h5>{`Faction: ${faction}`}</h5>
       <h3>{`Rarity: ${rarity}`}</h3>
       <h3>{`Affinity: ${affinity}`}</h3>
       <p>{`Role: ${role}`}</p>

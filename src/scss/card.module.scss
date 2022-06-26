@@ -1,0 +1,12 @@
+@import "./variables";
+.card {
+  padding: 1.5rem;
+  max-width: 300px;
+  border-radius: 1rem;
+  text-align: center;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.8);
+  background-color: $My-Favorite-Nights-4-hex;
+  color: $Landscape-5-hex;
+  font-size: 1.3rem;
+  width: 100%;
+}
