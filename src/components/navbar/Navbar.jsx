@@ -5,8 +5,8 @@ const Navbar = () => {
   return (
     <nav className={classes.navbar}>
       <a href="champions">CHAMPIONS</a>
-      <a href="champions">TYPES</a>
-      <a href="champions">FACTION</a>
+      <a href="types">TYPES</a>
+      <a href="faction">FACTION</a>
     </nav>
   );
 };
